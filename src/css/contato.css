@@ -1,10 +1,18 @@
-body, 
-html{
+*{
     margin: 0;
     padding: 0;
-    font-family: Arial;
-    height: 100%;
     box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+}
+
+body {
+    min-height: 100%;
+    background-color: #eee;
 }
 
 .navbar {
@@ -37,4 +45,75 @@ html{
 
 .navbar-links-desktop a:hover{
     color: darkcyan;
+}
+
+
+/* ----------- MAIN ----------- */
+
+main {
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+section {
+    height: 89.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(204, 204, 216);
+    outline: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+textarea {
+    resize: none;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #ccccd8;
+
+}
+
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #66BB6A;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* ----------- FOOTER ----------- */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    height: 50px;
 }

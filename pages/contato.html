@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/css/contato.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/contato.css" />
     <title>Contato</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">IF Baiano Agoinhas</div>
-            <ul class="navbar-links-desktop">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Turmas</a></li>
-                <li><a href="#">Estudantes</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <div class="logo">IF Baiano Agoinhas</div>
+        <ul class="navbar-links-desktop">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Turmas</a></li>
+          <li><a href="#">Estudantes</a></li>
+          <li><a href="../pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section>
-            <form action="">
-                <div class="form-group">
-                    <label for="name"></label>
-                    <input type="text" name="name" placeholder="Your name" >
-                </div>
+      <section>
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input type="text" name="name" placeholder="Your name" />
+          </div>
 
-                <div class="form-group">
-                    <label for="email"></label>
-                    <input type="text" name="email" placeholder="example@gmail.com" >
-                </div>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="text" name="email" placeholder="example@gmail.com" />
+          </div>
 
-                <div class="form-group">
-                    <label for="description"></label>
-                    <textarea  name="description"  >
-                </div>
+          <div class="form-group">
+            <label for="description">Mensagem:</label>
+            <textarea name="description" cols="50" rows="10"> </textarea>
+          </div>
 
-            </form>
-        </section>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
-</body>
+
+    <footer>
+      <div class="">
+        <p>
+          IF Baiano – Campus Alagoinhas Rua Manoel Romão de Souza, 152/166,
+          Alagoinhas Velha – Alagoinhas/BA. CEP: 48007-656
+        </p>
+      </div>
+    </footer>
+
+  </body>
 </html>

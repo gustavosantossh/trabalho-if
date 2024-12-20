@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> IF Baiano Agoinhas</title>
+        <link rel="stylesheet" href="istiluu.css" />
+    </head>
+    <body>
+        <ul>
+            <li>Ana Clara - 1º ano - Informática</li>
+            <li>Bruno Oliveira - 3º ano - Agroecologia</li>
+            <li>Carla Silva - 3º ano - agroindustria</li> 
+            <li>Diego Santos - 3º ano - Agroecologia</li>
+        </ul>
+    </body>
+</html>

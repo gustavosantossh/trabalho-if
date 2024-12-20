@@ -10,12 +10,6 @@ html, body {
     line-height: 1.6; 
 }
 
-body {
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(245, 245, 245, 0.521);
-}
-
 .navbar {
     background-color: #333;
     color: #fff;
@@ -51,15 +45,32 @@ body {
     color: darkcyan;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
-    text-align: justify;
-    margin: 25px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
 }
-
-.title {
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
     text-align: center;
 }
-
-.picture{
-    text-align: center;
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
 }

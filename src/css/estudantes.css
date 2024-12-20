@@ -11,9 +11,8 @@ html, body {
 }
 
 body {
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(245, 245, 245, 0.521);
+    min-height: 100%;
+    background-color: #eee;
 }
 
 .navbar {
@@ -49,17 +48,4 @@ body {
 
 .navbar-links-desktop a:hover{
     color: darkcyan;
-}
-
-.container {
-    text-align: justify;
-    margin: 25px;
-}
-
-.title {
-    text-align: center;
-}
-
-.picture{
-    text-align: center;
 }
